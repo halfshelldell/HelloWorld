@@ -4,7 +4,7 @@
 public class Food {
     String name;
     String goToPlace;
-    String favoriteFood;
+    boolean isFavoriteFood;
     String category;
     boolean isDelicious;
 
