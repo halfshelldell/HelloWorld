@@ -6,7 +6,6 @@ public class Food {
     String goToPlace;
     String favoriteFood;
     String category;
-    Food[] family = new Food[10];
     boolean isDelicious;
 
 
