@@ -4,7 +4,7 @@
 public class Sneakers {
     String brand;
     String color;
-    String model;
+    String models;
     boolean isPopular;
     double shoeSize;
 }
