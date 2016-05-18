@@ -17,6 +17,7 @@ public class Person {
     public String getName() {
         return name;
     }
+
     public void setName(String newName) {
         if (isValidName(newName)){
             //this.name = name;

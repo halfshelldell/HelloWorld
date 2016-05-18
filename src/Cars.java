@@ -32,6 +32,10 @@ public class Cars {
         return model;
     }
 
+    public void setModel(String newModel) {
+        model = newModel;
+    }
+
     public int getYear() {
         return year;
     }
