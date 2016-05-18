@@ -30,6 +30,7 @@ public class VideoGames {
 
     public void setConsole(String newConsole) {
         console = newConsole;
+        //this.console = console;
     }
 
     public double getPrice() {
@@ -59,7 +60,7 @@ public class VideoGames {
     }
 
     public static boolean isValidFavorite(String newFavoriteGame) {
-        return newFavoriteGame.contains("Mario");
+        return newFavoriteGame.equalsIgnoreCase("Mario");
     }
 }
 

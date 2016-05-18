@@ -2,11 +2,15 @@
  * Created by illladell on 5/16/16.
  */
 public class Person {
-    static int famiylSize = 10;
+    static final int famiylSize = 10;
     String name;
     int age;
     boolean isAlive;
     Person[] family = new Person[famiylSize];
+    Email email;
+
+    public Person() {
+    }
 
     public Person(String name, int age, boolean isAlive) {
         this.name = name;
