@@ -55,6 +55,6 @@ public class Exercise01 {
             }
         }
         System.out.println(nameMap);
-    }
+        }
 
 }
