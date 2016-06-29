@@ -20,6 +20,9 @@ public class Person implements Comparable<Person> {
         this.isAlive = isAlive;
     }
 
+    public Person(Integer integer, String column, String column1) {
+    }
+
     public String getName() {
         return name;
     }
